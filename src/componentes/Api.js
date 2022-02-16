@@ -4,31 +4,31 @@ import Cannabis from "./Cannabis";
 
 export default () =>{
 
-    const url = 'https://random-data-api.com/api/cannabis/random_cannabis?size=12'
+    const url = 'https://random-data-api.com/api/color/random_color?size=60'
 
-    const [diamba, setDiamba] = useState([])
+    const [cor, setCor] = useState([])
 
 
-    const carregaDiamba = async () =>{
+    const carregarCor = async () =>{
         const resposta = await fetch(url)
         const dadosJson = await resposta.json()
-        setDiamba(dadosJson)
+        setCor(dadosJson)
 
     }
 
 
     useEffect( () =>{
-        carregaDiamba()
+        carregarCor()
 
 
     }, [])
 
 
     return(
-        <main className="container-fluid centralizado pt-2">
+        <main className="container pt-2">
             <div className="row pb-2">
                 {
-                    diamba.map((item) =>{
+                    cor.map((item) =>{
                         return(
                             <Cannabis key={item.id} {...item}/>
 

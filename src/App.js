@@ -7,6 +7,7 @@ import {Route, Routes} from "react-router-dom";
 import MainNoticia from "./componentes/MainNoticia";
 import MainPedagogico from "./componentes/MainPedagogico";
 import Api from "./componentes/Api";
+import Contato from "./componentes/Contato";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/noticias" element={<MainNoticia />}/>
                 <Route path="/pedagogico" element={<MainPedagogico />}/>
                 <Route path="/api" element={<Api/>}/>
+                <Route path="/contato" element={<Contato/>}/>
 
             </Routes>
 

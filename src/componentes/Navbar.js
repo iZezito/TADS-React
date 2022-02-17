@@ -24,7 +24,7 @@ export default _ =>{
                             <Link to="/api" className="nav-link active" >API</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">Contato</a>
+                            <Link to="/contato" className="nav-link active" >Contato</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/pedagogico" className="nav-link active" >Projeto Pedagógico do Curso</Link>

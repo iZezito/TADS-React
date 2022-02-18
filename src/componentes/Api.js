@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Cannabis from "./Cannabis";
+import Cores from "./Cores";
 
 
 export default () =>{
@@ -30,7 +30,7 @@ export default () =>{
                 {
                     cor.map((item) =>{
                         return(
-                            <Cannabis key={item.id} {...item}/>
+                            <Cores key={item.id} {...item}/>
 
                         )
                     })

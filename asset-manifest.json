@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TADS-React/static/css/main.1a8a0596.css",
+    "main.js": "/TADS-React/static/js/main.42b13667.js",
+    "static/media/capa.jpg": "/TADS-React/static/media/capa.baccc0f30243ce75f919.jpg",
+    "static/media/News.jpg": "/TADS-React/static/media/News.b1bda8403b33b99eba46.jpg",
+    "static/media/foto-calenda-769-rio.jpg": "/TADS-React/static/media/foto-calenda-769-rio.a631fe5ffbe282604ef0.jpg",
+    "index.html": "/TADS-React/index.html",
+    "main.1a8a0596.css.map": "/TADS-React/static/css/main.1a8a0596.css.map",
+    "main.42b13667.js.map": "/TADS-React/static/js/main.42b13667.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8a0596.css",
+    "static/js/main.42b13667.js"
+  ]
+}
